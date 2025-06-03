@@ -70,8 +70,9 @@ dependencies {
 
     // Hilt
     implementation("com.google.dagger:hilt-android:2.48")
-    kapt("com.google.dagger:hilt-compiler:2.48")
+    kapt("com.google.dagger:hilt-compiler:2.49")
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
+    kapt ("androidx.hilt:hilt-compiler:1.1.0")
 
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
